@@ -1,0 +1,34 @@
+@media (min-width: 300px) and (max-width: 600px)
+    .intro
+
+    .intro__title
+        width: 100%
+        margin: 3px
+        text-align: center
+        font-size: 2rem
+        font-weight: 600
+        text-transform: uppercase
+        color: $template-orange
+
+    .intro__title--span
+        font-weight: 400
+        color: $template-black
+
+    .intro__gallery
+        +setFlex(column)
+        // background-color: $template-black
+        height: 80vh
+
+    .intro__attachment-div
+        height: 30%
+        width: 100%
+        background-image: url(../img/mobile/intro/intro_galery_1.jpg)
+        background-size: cover
+        background-position: center
+        margin-bottom: 1px
+
+    .intro__attachment-div--second
+        background-image: url(../img/mobile/intro/intro_galery_2.jpg)
+
+    .intro__attachment-div--third
+        background-image: url(../img/mobile/intro/intro_galery_3.jpg)
